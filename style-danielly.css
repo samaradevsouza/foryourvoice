@@ -1,0 +1,122 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: url(PÁGINA\ DANIELLY.png) no-repeat;
+    background-size: cover;
+}
+
+header {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+@font-face {
+    font-family: "Kenao";
+    src:
+        local("kenao"),
+        url("fyv/Kenao.otf");
+}
+
+#icon {
+    height: 100px;
+}
+
+.estrelinha {
+    height: 40px;
+    margin-top: 20px;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 17pt;
+    margin-top: 27px;
+    background: linear-gradient(180deg, #E40303 0%, #FF8C00 22.4%, #FFED00 39.06%, #007F26 57.81%, #004DFF 79.17%, #750787 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header a:hover {
+    text-shadow: 0 5px #ffffff;
+}
+
+#icon {
+    height: 100px;
+}
+
+.estrelinha {
+    height: 40px;
+    margin-top: 20px;
+}
+
+#bandeirinha {
+    height: 50px;
+    margin-top: 25px;
+}
+
+#body {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#sobre-danielly {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-left: 15em;
+}
+
+#sobre-danielly p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.social-media {
+    height: 50px;
+}
+
+#img-danielly {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#img-danielly img {
+    height: 600px;
+    margin: 0%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 115px;
+}
+
+footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 17pt;
+    background: linear-gradient(180deg, #E40303 0%, #FF8C00 22.4%, #FFED00 39.06%, #007F26 57.81%, #004DFF 79.17%, #750787 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.footer {
+    font-size: 10pt;
+    margin: 0%;
+    margin: 15px;
+}

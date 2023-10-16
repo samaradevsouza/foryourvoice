@@ -1,0 +1,164 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: url(PAGINA\ LETICIA.png) no-repeat;
+    background-position: bottom left;
+}
+
+@font-face {
+    font-family: "Kenao";
+    src:
+        local("Kenao"),
+        url("Kenao.otf");
+}
+
+header {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-bottom: 165px;
+}
+
+#icon {
+    height: 100px;
+}
+
+.estrelinha {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.form-section {
+    /* border-radius: 30px; */
+    background: linear-gradient(180deg, rgba(61, 26, 120, 0.30) 0%, rgba(79, 74, 203, 0.30) 21.88%, rgba(126, 175, 230, 0.30) 42.19%, rgba(156, 233, 198, 0.30) 59.9%, rgba(40, 205, 170, 0.30) 76.56%, rgba(7, 142, 112, 0.30) 91.15%);
+    ;
+    background-size: auto;
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.container,
+select {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-section,
+select {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input {
+    padding: 13px 0px 13px 25px;
+    width: 90%;
+    text-align: center;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    outline: none;
+    font-size: 16px;
+    color: #555555;
+    font-family: 'nunito', sans-serif;
+}
+
+h2 {
+    font-family: "Kenao";
+    font-size: 2em;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 17pt;
+    margin-top: 27px;
+    background: radial-gradient(50% 50% at 50% 50%, #078E70 0%, #9AE9C4 48.4%, #3D1A78 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header a:hover {
+    text-shadow: 0 5px #ffffff;
+}
+
+#icon {
+    height: 5.25em;
+}
+
+.estrelinha {
+    height: 40px;
+    margin-top: 20px;
+}
+
+#bandeirinha {
+    height: 50px;
+    margin-top: 25px;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    flex: 1;
+
+}
+
+footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    background: linear-gradient(90deg, #078E70 1.97%, #97EABE 45.32%, #3d0b94);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 17pt;
+    text-shadow: 1px 1px 1px 1px white;
+    margin-left: 18px;
+}
+
+
+.footer {
+    font-size: 10pt;
+    margin: 0%;
+    margin: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

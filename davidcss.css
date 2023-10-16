@@ -1,0 +1,246 @@
+<<<<<<< HEAD
+body {
+    font-family: 'Nunito', sans-serif;
+    background: url(DAVID\ ICONS/background.svg) no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Kenao";
+    src:
+      local("kenao"),
+      url("fyv/Kenao.otf");
+  }
+
+header {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#icon {
+ height:100px;
+}
+
+.estrelinha{
+    height: 40px;
+    margin-top: 20px;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 17pt;
+    margin-top: 27px;
+    background: conic-gradient(from 180deg at 50% 50%, #FDF435 22.5deg, #9C5CD4 176.2500035762787deg, #2C2C2C 360deg);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+header a:hover {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.253), 0 0 5px #ffffff;
+}
+
+#bandeirinha {
+    height: 50px;
+    margin-top: 25px;
+}
+
+#body {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre-david {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#sobre-david h1 {
+    font-family: "kenao";
+    background: conic-gradient(from 180deg at 50% 50%, #FDF435 22.5deg, #9C5CD4 176.2500035762787deg, #2C2C2C 360deg);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    font-size: 100px;
+    text-align: center;
+}
+
+.social-media {
+    height: 50px;
+}
+
+#sobre-david p {
+    font-size: 30px;
+    text-align: center;
+}
+
+#img-david {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /* border: 1px solid red;  */
+}
+
+#img-david img {
+    height: 600px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+
+footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 30pt;
+    background: conic-gradient(from 180deg at 50% 50%, #FDF435 22.5deg, #9C5CD4 176.2500035762787deg, #2C2C2C 360deg);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.514);
+}
+
+
+.footer {
+    font-size: 10pt;
+    margin: 0%;
+    margin: 15px;
+=======
+body {
+    font-family: 'Nunito', sans-serif;
+    background: url(background.svg) no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Kenao";
+    src:
+      local("kenao"),
+      url("fyv/Kenao.otf");
+  }
+
+header {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#icon {
+ height:100px;
+}
+
+.estrelinha{
+    height: 40px;
+    margin-top: 20px;
+}
+
+header a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 17pt;
+    margin-top: 27px;
+    background: conic-gradient(from 180deg at 50% 50%, #FDF435 22.5deg, #9C5CD4 176.2500035762787deg, #2C2C2C 360deg);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+header a:hover {
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.253), 0 0 5px #ffffff;
+}
+
+#bandeirinha {
+    height: 50px;
+    margin-top: 25px;
+}
+
+#body {
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre-david {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+#sobre-david h1 {
+    font-family: "kenao";
+    background: conic-gradient(from 180deg at 50% 50%, #FDF435 22.5deg, #9C5CD4 176.2500035762787deg, #2C2C2C 360deg);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    font-size: 100px;
+    text-align: center;
+}
+
+.social-media {
+    height: 50px;
+}
+
+#sobre-david p {
+    font-size: 30px;
+    text-align: center;
+}
+
+#img-david {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    /* border: 1px solid red;  */
+}
+
+#img-david img {
+    height: 600px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+
+footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 30pt;
+    background: conic-gradient(from 180deg at 50% 50%, #FDF435 22.5deg, #9C5CD4 176.2500035762787deg, #2C2C2C 360deg);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.514);
+}
+
+
+.footer {
+    font-size: 10pt;
+    margin: 0%;
+    margin: 15px;
+>>>>>>> bc476c9edc9ee3615f2cd5210a7a3337c78ea99f
+}
