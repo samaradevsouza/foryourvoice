@@ -7,9 +7,9 @@ body {
 @font-face {
     font-family: "Kenao";
     src:
-      local("kenao"),
-      url("kenao/Kenao.otf");
-  }
+        local("kenao"),
+        url("kenao/Kenao.otf");
+}
 
 header {
     margin-top: 0%;
@@ -20,10 +20,10 @@ header {
 }
 
 #icon {
- height:100px;
+    height: 100px;
 }
 
-.estrelinha{
+.estrelinha {
     height: 40px;
     margin-top: 20px;
 }
@@ -33,7 +33,7 @@ header a {
     text-decoration: none;
     font-weight: bold;
     margin: 15px;
-    font-size: 17pt;
+    font-size: 25pt;
     margin-top: 27px;
     background: radial-gradient(50% 50% at 50% 50%, #D6006F 0%, #724E94 53.13%, #0038A7 100%);
     background-clip: text;
@@ -54,6 +54,8 @@ header a:hover {
 #body {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-top: 10em;
 }
 
 #sobre-leticia {
@@ -71,7 +73,7 @@ header a:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 100px;
-    text-align: center;
+    text-align: justify;
 }
 
 .social-media {
