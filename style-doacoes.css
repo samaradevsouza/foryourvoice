@@ -191,11 +191,3 @@ input[type=number] {
 .form-section h2 {
     text-align: center;
 }
-
-@media (max-width:1920px) {
-    body {
-        width: 1920px;
-        height: 1080px;
-    }
-    
-}
