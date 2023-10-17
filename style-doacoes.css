@@ -131,7 +131,7 @@ footer {
     width: 100%;
     margin-bottom: 0.938em;
     margin-top: 40px;
-    /* flex: 1; */
+    flex: 1;
 
     position: absolute;
     height: 2.5rem; 
