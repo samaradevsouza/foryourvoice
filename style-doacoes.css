@@ -20,6 +20,10 @@ header {
     margin-bottom: 165px;
 }
 
+header a:hover {
+    text-shadow: 0 5px #ffffff;
+}
+
 #icon {
     height: 100px;
 }
@@ -91,7 +95,7 @@ header a {
     color: black;
     font-weight: bold;
     margin: 15px;
-    font-size: 17pt;
+    font-size: 25pt;
     margin-top: 27px;
     background: radial-gradient(50% 50% at 50% 50%, #078E70 0%, #9AE9C4 48.4%, #3D1A78 100%);
     background-clip: text;
@@ -100,7 +104,7 @@ header a {
 }
 
 header a:hover {
-    text-shadow: 0 5px #ffffff;
+    text-shadow: 1px 1px  #ffffff8f;
 }
 
 #icon {
@@ -125,9 +129,12 @@ footer {
     text-align: center;
     bottom: 0;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0.938em;
     margin-top: 40px;
-    flex: 1;
+    /* flex: 1; */
+
+    position: absolute;
+    height: 2.5rem; 
 
 }
 
@@ -161,4 +168,34 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
     -moz-appearance: textfield;
+}
+
+/* inline para out e adicionais */
+
+#proximo-doacoes2 {
+    margin-top: 40px;
+    background: #9AE9C4;
+    padding: 20px 70px;
+    text-align: center;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    outline: none;
+}
+
+.form-section h2 {
+    text-align: center;
+}
+
+@media (max-width:1920px) {
+    body {
+        width: 1920px;
+        height: 1080px;
+    }
+    
 }
